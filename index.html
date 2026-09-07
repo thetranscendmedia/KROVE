@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krove Grooming Lounge</title>
+    <!-- Pure CSS Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navbar Section -->
+    <header class="navbar">
+        <div class="nav-container">
+            
+            <!-- Logo -->
+            <div class="logo">
+                <a href="#">KROVE<span>.</span></a>
+            </div>
+
+            <!-- Desktop Navigation Links -->
+            <nav class="nav-links">
+                <a href="#services">Services</a>
+                <a href="#experience">Experience</a>
+                <a href="#hours">Hours & Location</a>
+            </nav>
+
+            <!-- Desktop CTA Button -->
+            <div class="nav-cta">
+                <a href="#booking" class="btn-primary">Book Now</a>
+            </div>
+
+            <!-- Mobile Menu Hamburger Button -->
+            <button id="menu-btn" class="menu-btn" aria-label="Toggle Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+
+        <!-- Mobile Dropdown Menu -->
+        <div id="mobile-menu" class="mobile-menu">
+            <a href="#services">Services</a>
+            <a href="#experience">Experience</a>
+            <a href="#hours">Hours & Location</a>
+            <a href="#booking" class="btn-primary mobile-btn">Book Now</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content animate-fade-in">
+            <span class="hero-badge">★ Rated #1 Modern Grooming Lounge</span>
+            <h1 class="hero-title">Precision Cuts. <br>Timeless Craft.</h1>
+            <p class="hero-subtitle">
+                Elevate your personal style with master barbers dedicated to sharp fades, immaculate beard care, and an unmatched lounge experience.
+            </p>
+            <div class="hero-buttons">
+                <a href="#booking" class="btn-primary">Book Appointment</a>
+                <a href="#services" class="btn-secondary">Explore Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services & Detailed Price List Section -->
+    <section id="services" class="services-section">
+        <div class="services-container">
+            <div class="section-header">
+                <span class="section-tag">Investment in Your Look</span>
+                <h2 class="section-title">Tailored Grooming Packages</h2>
+                <p class="section-subtitle">Precision artistry paired with premium organic products for the modern gentleman.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1: Signature Haircut -->
+                <div class="service-card">
+                    <div class="service-header">
+                        <h3>Signature Haircut</h3>
+                        <span class="service-price">$35</span>
+                    </div>
+                    <p class="service-desc">Custom precision haircut tailored to your face shape and hair texture.</p>
+                    <ul class="service-list">
+                        <li><span>✓</span> In-depth style consultation</li>
+                        <li><span>✓</span> Precision cut & fade work</li>
+                        <li><span>✓</span> Hot lather neck shave</li>
+                        <li><span>✓</span> Professional styling finish</li>
+                    </ul>
+                    <div class="service-footer">
+                        <span class="service-duration">⏱ 30 mins</span>
+                        <a href="#booking" class="btn-text">Book Package →</a>
+                    </div>
+                </div>
+
+                <!-- Service 2: The Krove Full Experience (Featured) -->
+                <div class="service-card featured">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="service-header">
+                        <h3>The Krove Full Experience</h3>
+                        <span class="service-price">$55</span>
+                    </div>
+                    <p class="service-desc">Our signature comprehensive grooming ritual for the ultimate refresh.</p>
+                    <ul class="service-list">
+                        <li><span>✓</span> Signature Custom Haircut</li>
+                        <li><span>✓</span> Detailed Beard Sculpt & Razor Line-up</li>
+                        <li><span>✓</span> Steamed Hot Towel Infusion</li>
+                        <li><span>✓</span> Refreshing Facial Tonic & Scalp Massage</li>
+                    </ul>
+                    <div class="service-footer">
+                        <span class="service-duration">⏱ 45 mins</span>
+                        <a href="#booking" class="btn-text gold">Book Package →</a>
+                    </div>
+                </div>
+
+                <!-- Service 3: Classic Beard Sculpt -->
+                <div class="service-card">
+                    <div class="service-header">
+                        <h3>Classic Beard Sculpt</h3>
+                        <span class="service-price">$25</span>
+                    </div>
+                    <p class="service-desc">Expert shaping and maintenance to keep your facial hair looking sharp.</p>
+                    <ul class="service-list">
+                        <li><span>✓</span> Custom length trim & shaping</li>
+                        <li><span>✓</span> Straight-razor cheek & neck line-up</li>
+                        <li><span>✓</span> Warm essential oil treatment</li>
+                        <li><span>✓</span> Organic beard balm application</li>
+                    </ul>
+                    <div class="service-footer">
+                        <span class="service-duration">⏱ 25 mins</span>
+                        <a href="#booking" class="btn-text">Book Package →</a>
+                    </div>
+                </div>
+
+                <!-- Service 4: Hot Towel Straight Razor Shave -->
+                <div class="service-card">
+                    <div class="service-header">
+                        <h3>Hot Towel Straight Shave</h3>
+                        <span class="service-price">$30</span>
+                    </div>
+                    <p class="service-desc">Traditional barbering technique delivering an impeccably smooth finish.</p>
+                    <ul class="service-list">
+                        <li><span>✓</span> Pre-shave botanical oils</li>
+                        <li><span>✓</span> Multi-stage steamed hot towels</li>
+                        <li><span>✓</span> Rich hot lather application</li>
+                        <li><span>✓</span> Close straight-razor shave & aftershave balm</li>
+                    </ul>
+                    <div class="service-footer">
+                        <span class="service-duration">⏱ 30 mins</span>
+                        <a href="#booking" class="btn-text">Book Package →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detailed Experience / Features Section -->
+    <section id="experience" class="experience-section">
+        <div class="experience-container">
+            <div class="section-header">
+                <span class="section-tag">The Krove Standard</span>
+                <h2 class="section-title">An Unmatched Lounge Experience</h2>
+                <p class="section-subtitle">More than just a haircut—a ritual crafted for the modern gentleman.</p>
+            </div>
+
+            <!-- Pillar 1: Master Barbers -->
+            <div class="experience-block">
+                <div class="block-header">
+                    <span class="feature-number">01</span>
+                    <div>
+                        <h3>Master Barbers</h3>
+                        <p>Industry veterans dedicated to the craft of precision styling.</p>
+                    </div>
+                </div>
+                <div class="sub-grid">
+                    <div class="sub-card">
+                        <h4>Marcus Vance</h4>
+                        <span class="sub-role">Lead Master Barber</span>
+                        <p>Specializing in high-contrast skin fades, precision crop cuts, and traditional razor work with over 12 years of mastery.</p>
+                    </div>
+                    <div class="sub-card">
+                        <h4>Julian Thorne</h4>
+                        <span class="sub-role">Senior Stylist & Beard Architect</span>
+                        <p>Expert in classic scissor cuts, textured pompadours, and bespoke beard sculpting tailored to individual bone structures.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pillar 2: Organic Products -->
+            <div class="experience-block">
+                <div class="block-header">
+                    <span class="feature-number">02</span>
+                    <div>
+                        <h3>Signature Organic Products</h3>
+                        <p>Hand-formulated botanical products used in every service and available for home maintenance.</p>
+                    </div>
+                </div>
+                <div class="sub-grid three-col">
+                    <div class="sub-card">
+                        <h4>Krove Matte Clay</h4>
+                        <p>Provides a strong, flexible hold with zero shine using natural beeswax and kaolin clay.</p>
+                    </div>
+                    <div class="sub-card">
+                        <h4>Krove Beard Elixir</h4>
+                        <p>Argan and jojoba oil blend engineered to soften coarse beard hair and eliminate skin irritation.</p>
+                    </div>
+                    <div class="sub-card">
+                        <h4>Krove Scalp Tonic</h4>
+                        <p>Tea tree and eucalyptus infusion designed to stimulate follicles and soothe post-shave skin.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pillar 3: Complimentary Lounge -->
+            <div class="experience-block">
+                <div class="block-header">
+                    <span class="feature-number">03</span>
+                    <div>
+                        <h3>The Lounge Amenities</h3>
+                        <p>Designed for comfort, relaxation, and effortless networking.</p>
+                    </div>
+                </div>
+                <div class="sub-grid">
+                    <div class="sub-card">
+                        <h4>Craft Bourbon Bar</h4>
+                        <p>Enjoy complimentary small-batch bourbon, whiskey, or local craft beer during your visit.</p>
+                    </div>
+                    <div class="sub-card">
+                        <h4>Vinyl & Espresso Lounge</h4>
+                        <p>Unwind listening to curated analog vinyl records while sipping a freshly pulled artisanal espresso.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking, Location & Footer Section -->
+    <section id="booking" class="booking-section">
+        <div class="booking-container">
+            <div class="section-header">
+                <span class="section-tag">Secure Your Visit</span>
+                <h2 class="section-title">Hours & Appointments</h2>
+                <p class="section-subtitle">Walk-ins are welcomed based on availability, but reservations are strongly recommended.</p>
+            </div>
+
+            <div class="booking-grid">
+                <!-- Left Column: Location & Hours -->
+                <div class="info-column">
+                    <div class="info-card">
+                        <h3>Operating Hours</h3>
+                        <ul class="hours-list">
+                            <li><span>Tuesday – Friday</span> <span>9:00 AM – 7:00 PM</span></li>
+                            <li><span>Saturday</span> <span>8:00 AM – 6:00 PM</span></li>
+                            <li><span>Sunday</span> <span>10:00 AM – 4:00 PM</span></li>
+                            <li><span>Monday</span> <span class="closed">Closed</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>Location & Contact</h3>
+                        <p class="info-detail">📍 742 Evergreen Terrace, Suite 400<br>Downtown District</p>
+                        <p class="info-detail">📞 (555) 839-2041<br>✉️ concierge@krovebarbers.com</p>
+                    </div>
+                </div>
+
+                <!-- Right Column: Booking Form -->
+                <div class="form-column">
+                    <form class="booking-form" onsubmit="event.preventDefault(); alert('Thank you! Your appointment request has been received.');">
+                        <h3>Book an Appointment</h3>
+                        
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" placeholder="John Doe" required>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" placeholder="john@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" placeholder="(555) 000-0000" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="service">Select Package</label>
+                                <select id="service" required>
+                                    <option value="" disabled selected>Choose a service</option>
+                                    <option value="haircut">Signature Haircut ($35)</option>
+                                    <option value="full-experience">The Krove Full Experience ($55)</option>
+                                    <option value="beard">Classic Beard Sculpt ($25)</option>
+                                    <option value="shave">Hot Towel Straight Shave ($30)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="barber">Preferred Barber</label>
+                                <select id="barber">
+                                    <option value="any">Any Available Master</option>
+                                    <option value="marcus">Marcus Vance</option>
+                                    <option value="julian">Julian Thorne</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="date">Preferred Date & Time</label>
+                            <input type="datetime-local" id="date" required>
+                        </div>
+
+                        <button type="submit" class="btn-primary form-submit-btn">Confirm Reservation</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Site Footer -->
+        <footer class="site-footer">
+            <div class="footer-content">
+                <div class="footer-logo">KROVE<span>.</span></div>
+                <p>&copy; 2026 Krove Barbershop. All rights reserved. Crafted for the modern gentleman.</p>
+                <div class="footer-links">
+                    <a href="#services">Services</a>
+                    <a href="#experience">The Standard</a>
+                    <a href="#booking">Booking</a>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <!-- Separate JavaScript File -->
+    <script src="script.js" defer></script>
+</body>
+</html>
